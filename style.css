@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  padding: 25px;
+  background-color: rgb(9, 158, 151);
+  color: white;
+}
+
+header p {
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+  font-size: 40px;
+  transition: 0.3s;
+  font-family: "Brush Script MT", cursive;
+}
+
+header p:hover {
+  font-size: xx-large;
+}
+nav {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+nav a {
+  padding: 20px;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  float: left;
+  color: rgb(9, 158, 151);
+  background-color: white;
+  transition: 0.5s;
+}
+
+nav a:hover {
+  background-color: rgb(9, 158, 151);
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+  border: 2px;
+}
+
+.go {
+  border: 2px solid rgb(250, 250, 250);
+  background-color: white;
+  color: rgb(17, 124, 143);
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.go:hover {
+  background-color: rgb(17, 124, 143);
+  color: beige;
+}
+
+.mostimg {
+  position: relative;
+}
+
+.most {
+  background-color: rgb(228, 228, 228);
+}
+.most table {
+  margin-left: 7px;
+  padding: 10px;
+}
+
+.mosthead {
+  text-align: left;
+  padding-left: 20px;
+  font-family: monospace;
+  font-size: 17px;
+  word-spacing: 10px;
+}
+
+.order {
+  background-color: rgb(9, 158, 151);
+  color: whitesmoke;
+  cursor: pointer;
+  transition: 0.3s;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+}
+
+.order:hover {
+  background-color: white;
+  color: rgb(17, 124, 143);
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.sale {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(17, 124, 143);
+  font-size: 40px;
+  color: rgb(250, 250, 250);
+  font-family: "Brush Script MT";
+  transition: 0.3s;
+}
+
+.features {
+  margin: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: rgb(228, 228, 228);
+  border-style: black;
+}
+
+.sale:hover {
+  font-size: 45px;
+}
+
+.moreitem,
+td,
+tr {
+  border: 20px rgb(250, 250, 250);
+  padding-left: 39px;
+  align-items: center;
+  padding-right: 39px;
+}
+
+footer {
+  padding: 9px;
+  background-color: black;
+  overflow: hidden;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  float: left;
+  color: white;
+}
+
+.contactbox {
+  font-family: "Poppins";
+  border: 3px solid rgb(9, 158, 151);
+  margin-top: 70px;
+  margin-left: 35%;
+  margin-right: 28%;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+  backdrop-filter: blur(50px);
+  width: 400px;
+}
+
+.detailbg {
+  background-color: white;
+}
+
+.contactheader {
+  background-color: rgb(9, 158, 151);
+  color: white;
+  text-align: center;
+  padding: 0.1px;
+  height: 120px;
+}
+
+fieldset {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  outline: none;
+}
+.inputdetail {
+  height: 25px;
+  width: 200px;
+}
+
+.inputdetail:focus {
+  border: 2px solid rgb(17, 124, 143);
+  outline: none;
+}
